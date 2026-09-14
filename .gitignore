@@ -1,0 +1,18 @@
+# Exports. Never commit one of these -- they contain real conversation
+# content, real names, and real screenshots from a live tenant.
+TeamsExport/
+chat_*/
+*.jsonl
+transcript.html
+images/
+
+# Anything that looks like an export dropped elsewhere
+**/manifest.md
+**/chats.csv
+**/identified.csv
+
+# Local scratch
+*.log
+*.tmp
+.vscode/
+.idea/
